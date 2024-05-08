@@ -1,0 +1,230 @@
+body{
+    background-image: url(background.jpg);
+    color:black;
+    background-size: cover;
+    /* background-repeat: no-repeat; */
+    /* height: 100vh; */
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 30px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    background-color: black;
+    font-size: 2em;
+    background-origin: padding-box;
+
+
+
+    
+}
+.hide {
+    display: none;
+  }
+  .teams {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    /* background: transparent;
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    transition: 0.5s; */
+  }
+  div#team-selection .team {
+    text-align: center;
+    padding: 6px;
+    height: 80px;
+    width: 150px;
+    font-size: 18px;
+    font-family: sans-serif;
+    font-weight: bold;
+    border: 2px solid gray;
+    border-radius: 2px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 2px;
+    cursor: pointer;
+    text-align: center;
+    margin: 39px;
+    padding: -26px;
+}
+  
+  
+  div#team-selection .selected-team {
+    border-color:red;
+   
+  }
+  
+  
+  .your-team {
+    text-decoration: underline;
+  }
+#sound{
+  display: inline-block;
+  justify-content: flex-end;
+
+
+}
+#sound{
+
+  color: black;
+  display: flex;
+  justify-content: flex-end;
+  align-self: self-end;
+}
+button{
+  display: inline-block;
+    text-decoration: none;
+    color:black;
+    border: 1px solid black;
+    /* padding: 12px 34px; */
+    font-size: 13px;
+    background: transparent;
+    position: relative;
+    cursor: pointer;
+    border-radius: 50px;
+}
+button:hover{
+  /* background-color: black;
+  color: green;
+  transition: 1.5 ease-in-out; */
+  border: 1px solid rgb(34, 37, 34);
+  background: gray;
+  transition: 1s;
+  
+}
+
+.head{
+  height: 26px;
+  width: 78px;
+  margin: 30px;
+/* font-size: 20px; */
+}
+.tail{
+  height: 26px;
+  width: 78px;
+  margin: 30px;
+  
+/* font-size: 16px; */
+}
+button{
+width: 100px;
+height: 50px;
+font-size: 16px;
+}
+.team:hover{
+  /* transition: 2.5s ease-in; */
+  /* flex-basis: 30%; */
+  background: gray;
+  border-radius: 50%;
+  /* margin-bottom: 5%;
+  padding: 20px 12px; */
+  box-sizing: border-box;
+  /* transition: 0.5s; */
+  margin: 23px;
+}
+input{
+  position: relative;
+  /* width: 100%; */
+  outline: none;
+   font-size: 60%;
+  padding: 0 30px;
+    line-height: 50px;
+  border-radius: 50px;
+  border: 2px solid black;
+  background: transparent;
+  transition: 0.1s ease;
+  z-index: 1111;
+}
+#user-name{
+  /* position: absolute; */
+  /* font-size: 1.2em; */
+  color: black;
+  padding: 0 25px;
+  margin: 0 20px;
+  background-color: aliceblue;
+  transition: 0.2s ease;
+}
+input:focus,
+input:valid{
+  color: black;
+  border: 2px solid darkslategray;
+}
+input:focus+user-nam,
+input:valid+user-nam{
+  color: black;
+  height: 30px;
+  line-height: 30px;
+  transform: translate(-15px,-16px) scale(0.88);
+  z-index: 1111;
+
+  
+}
+#pak{
+  width: 30px;
+  background: green;
+  background-image: url(Flag_of_Pakistan.svg);
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+#aus{
+  width: 30px;
+  background-image: url(Flag_Aus.svg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  
+  
+
+}
+#sa{
+  width: 30px;
+  background-image: url(Flag_South.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+#nz{
+  width: 30px;
+  background-image: url(Flag_New.svg);
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+#afg{
+
+  width: 30px;
+  background-image: url(af.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+#eng{
+  width: 30px;
+  background-image: url(Flag-Eng.webp);
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+#bangla{
+  width: 30px;
+  background-image: url(Flag_Bangla.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+#ind{
+  width: 30px;
+  background-image: url(in-flg.avif);
+  background-size: cover;
+  background-repeat: no-repeat;
+ 
+}
+/* .icon .fa {
+  color:#5916f7;
+  margin: 0 13px;
+  cursor: pointer;
+  padding: 18px 0;
+} */
+
+
+   
